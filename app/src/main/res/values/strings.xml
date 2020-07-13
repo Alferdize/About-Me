@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="anubhav">Anubhav</string>
+    <string name="green_bug">Lady Bug</string>
+    <string name="textview">Android requires that all apps be digitally signed with a certificate before they can be installed. In order to distribute your Android application via Google Play store it needs to be signed with a release key that then needs to be used for all future updates. Since 2017 it is possible for Google Play to manage signing releases automatically thanks to App Signing by Google Play functionality. However, before your application binary is uploaded to Google Play it needs to be signed with an upload key. The Signing Your Applications page on Android Developers documentation describes the topic in detail. This guide covers the process in brief, as well as lists the steps required to package the JavaScript bundle.</string>
+    <string name="name">Name</string>
+    <string name="what_is_your_nick_name">What is your Nick Name?</string>
+    <string name="button">Button</string>
+    <string name="textview1">TextView</string>
 </resources>
