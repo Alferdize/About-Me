@@ -22,16 +22,17 @@
         android:layout_marginTop="16dp"
         android:contentDescription="@string/green_bug"
         tools:srcCompat="@android:drawable/ic_media_next" />
+
     <EditText
-        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
         android:id="@+id/editTextTextPersonName"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@"
+        android:layout_height="46dp"
+        android:autofillHints="Nick Name"
         android:ems="10"
         android:hint="@string/what_is_your_nick_name"
         android:inputType="textPersonName"
-        android:autofillHints="Nick Name" />
+        android:textColor="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/button"
@@ -54,8 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/textview"
-            android:textSize="20sp"
-            android:visibility="gone" />
+            android:textSize="20sp"/>
     </ScrollView>
 
 
